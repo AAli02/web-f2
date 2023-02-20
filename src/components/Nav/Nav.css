@@ -99,3 +99,10 @@
         margin-left: -20px;
       }
 }
+
+@media screen and (max-width: 430px) {
+  .contact__me {
+    /* padding: 0.875rem 1.875rem; */
+    padding-left: 30%;
+}
+}

@@ -302,7 +302,9 @@ input {
 
     .banner__img {
         margin-top: -110%;
-        margin-right: 30%;
+        margin-right: 22%;
+        height: 25%;
+        width: 60%;
     }
 
     .mail__btn {
