@@ -1,0 +1,14 @@
+#section1 {
+    height: 100vh;
+}
+
+.section__title {
+    display: flex;
+    justify-content: center;
+}
+
+.title__us {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffff;
+}
