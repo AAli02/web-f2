@@ -3,7 +3,7 @@
 }
 
 div {
-    display: block;
+  display: block;
 }
 
 .section__title {
@@ -18,4 +18,10 @@ div {
   background: -webkit-linear-gradient(#242424, #0091ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 430px) {
+  .title__us {
+    font-size: 30px;
+  }
 }
