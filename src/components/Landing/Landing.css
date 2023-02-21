@@ -308,7 +308,7 @@ input {
 
     } */
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 460px) {
 
     body {
         overflow-x: hidden;
@@ -357,10 +357,17 @@ input {
         justify-content: center;
     }
 
+    .banner__right {
+        height: 100%;
+        max-width: 400px;
+        width: 25%;
+        margin-right: -50%;
+    }
+
     .banner__img {
         margin-top: -110%;
         height: 25%;
-        width: 60%;
+        width: 80%;
     }
 
     .mail__btn {
