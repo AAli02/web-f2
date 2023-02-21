@@ -39,6 +39,7 @@
     position: absolute;
     height: 100%;
     max-width: 400px;
+    width: 25%;
     margin-right: -50%;
 }
 
