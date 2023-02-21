@@ -162,6 +162,10 @@ input {
   }
 
 @media screen and (max-width: 1000px) {
+    .scroll {
+        bottom: 40px;
+    }
+
     .banner {
         width: 85%;
         height: 50vh;
