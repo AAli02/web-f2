@@ -1,381 +1,108 @@
 #Landing {
-    height: 100vh;
-}
-
-.title__container {
-    display: flex;
-    justify-content: center;
-    align-content: stretch;
-}
-
-.land__title {
-    font-size: 50px;
-    font-weight: 900;
-    letter-spacing: .7em;
-    color: #242424;
+  height: 100vh;
 }
 
 .banner {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 90%;
-    max-width: 82.5rem;
-    height: 85vh;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 1.25rem;
-    padding-left: 1.25rem;
-    border-radius: 40px;
-    backdrop-filter: blur(20px);
-    /* background-color: rgba(0, 0, 0, 0.08); */
-    background-color: #242424;
-    color: #242424;
-
-    box-shadow: 3px 3px 15px 0 rgba(255, 255, 255, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 1200px;
+  height: 700px;
+  border-radius: 20px;
+  display: flex;
+  transition: visibility 1s, z-index 1s, box-shadow 0.5s ease;
+  background-color: #242424;
 }
 
-.banner__right {
-    position: absolute;
-    height: 100%;
-    max-width: 400px;
-    width: 25%;
-    margin-right: -50%;
+.banner__half {
+  width: 50%;
+  padding: 40px 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  transition: all 300ms ease-in;
+  color: #fff;
 }
 
-.banner__content {
-    /* margin-right: 50%;
-    margin-left: 50%; */
-    position: relative;
-    height: 100%;
-    max-width: 800px;
-    margin-left: -45%;
+.banner__contact {
+  color: white;
 }
 
-.banner__description {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    margin-top: 20%;
-    /* margin-left: 2%; */
-    width: 52%;
+.banner__about {
+  filter: brightness(90%);
 }
 
-.banner__text {
-    color: #ffff;
-    display: block;
-    font-size: 4em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: 700;
-    width: 500px;
+.banner__title {
+  font-size: 38px;
 }
 
-.banner__info {
-    color: #ffff;
-    font-size: 1.375rem;
-    line-height: 1.875rem;
-    font-weight: 300;
-    width: 500px;
+.banner__sub-title {
+  margin: 12px 0 24px 0;
+  font-size: 18px;
 }
 
-.banner__img {
-    height: 50%;
-    width: 90%;
-    padding-top: 150px;
-    /* margin-right: 10%; */
+h2 {
+  display: block;
+  margin-block-start: -4.33em;
+  margin-block-end: 0.5em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 
-.input__wrapper {
-    /* width: 100%; */
-    position: relative;
-    display: inline-block;
-    width: 500px;
+/* FORM */
+
+/* label {
+  font-size: 14px;
+  font-weight: bold;
+} */
+
+input,
+textarea {
+  position: absolute;
+  width: 100%;
+  background-color: #fff;
+  color: #242424;
+  outline: none;
+  border-radius: 50px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: 40px;
+  transition: all 300ms ease;
+  padding-left: 20px;
 }
 
-input {
-    line-height: normal;
-    border-radius: 10px;
-    border-style: none;
+.form__item {
+  position: relative;
+  margin-bottom: 2px;
 }
 
-.form__mail {
-    padding: 8px 14px;
-    font-size: 16px;
-    height: 38px;
-    width: 90%;
-    margin-top: 20px;
+.form__submit {
+  position: absolute;
+  background-color: #0091ff;
+  border: 2px solid #0091ff;
+  border-radius: 20px;
+  color: white;
+  font-weight: 700;
+  width: 80%;
+  height: 30px;
+  max-width: 100px;
+  /* padding: 2px 24px; */
+  font-size: 16px;
+  transition: all 300ms ease;
+  /* margin-left: 62%; */
+  margin-top: 4px;
+  margin-right: 4px;
+  top: 0;
+  right: 0;
+  bottom: 0;
 }
 
-.btn__wrapper {
-    padding-left: 76%;
-}
-
-.mail__btn {
-    position: absolute;
-    height: 50%;
-    width: 80px;
-    bottom: 7px;
-    border-radius: 10px;
-    border-style: none;
-    background-color: #242424;
-    font-size: 18px;
-    font-weight: 700;
-    color: #fff;
-    margin-bottom: 1px;
-}
-
-.scroll__icon {
-    width: 20px;
-    height: 30px;
-    border: 2px solid #fff;
-    border-radius: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .scroll {
-    position: absolute;
-    bottom: 70px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .scroll__icon:after {
-    content: "";
-    width: 4px;
-    height: 6px;
-    background-color: #fff;
-    border-radius: 2px;
-    animation: scroll 1000ms infinite alternate-reverse;
-  }
-  
-  @keyframes scroll {
-    0% {
-      transform: translateY(3px);
-    }  
-    100% {
-      transform: translateY(-3px);
-    }  
-  }
-
-@media screen and (max-width: 1000px) {
-    .scroll__icon {
-        border: 2px solid #242424;
-      }
-    .scroll__icon:after {
-        background-color: #242424;
-    }
-
-    .banner {
-        width: 85%;
-        height: 50vh;
-        position: relative;
-    }
-    .banner__text {
-        color: #ffff;
-        display: block;
-        font-size: 3em;
-        margin-block-start: 0.67em;
-        margin-block-end: 0.67em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        font-weight: 700;
-    }
-
-    .banner__content {
-        /* margin-right: 50%;
-        margin-left: 50%; */
-        position: absolute;
-        height: 100%;
-        max-width: 400px;
-        margin-left: -45%;
-        margin-top: -5%;
-    }
-
-    .banner__text {
-        width: 400px;
-    }
-
-    .banner__info {
-        color: #ffff;
-        font-size: 1rem;
-        line-height: 1.875rem;
-        font-weight: 300;
-        margin-top: -10px;
-        width: 300px;
-    }
-
-    .banner__img {
-        height: 50%;
-        width: 80%;
-        padding-top: 110px;
-    }
-
-    .btn__wrapper {
-        padding-left: 75%;
-    }
-
-    .input__wrapper {
-        width: 400px;
-    }
-    
-}
-
-@media screen and (max-width: 860px) {
-    .banner__content {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .banner__description {
-        width: 80%;
-    }
-
-    .banner__text {
-        color: #ffff;
-        display: block;
-        font-size: 2.8em;
-        margin-block-start: 0.67em;
-        margin-block-end: 0.67em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        font-weight: 700;
-    }
-
-    .banner__info {
-        color: #ffff;
-        font-size: 1rem;
-        font-weight: 300;
-        margin-top: 10px;
-        width: 400px;
-    }
-
-    .input__wrapper {
-        padding-top: 20px;
-    }
-
-    .banner__img {
-        height: 250px;
-        width: 140px;
-        padding-top: 180px;
-        padding-right: 45px;
-        rotate: -15deg;
-    }
-
-    .banner {
-        height: 60vh;
-    }
-
-    .btn__wrapper {
-        padding-left: 75%;
-    }
-
-    .mail__btn {
-        margin-bottom: -5px;
-    }
-
-}
-
-@media screen and (max-width: 660px) {
-    .btn__wrapper {
-        padding-left: 75%;
-    }
-
-    .banner__content {
-        margin-left: -30%;
-        margin-top: -10%;
-    }
-
-    /* .banner__description {
-
-    } */
-
-    .banner__info {
-        width: 320px;
-    }
-
-    .banner__img {
-        margin-top: -40%;
-        margin-left: 12%;
-    }
-
-    /* .input__wrapper {
-
-    } */
-}
-@media screen and (max-width: 460px) {
-
-    body {
-        overflow-x: hidden;
-    }
-
-    .scroll {
-        bottom: 50px;
-    }
-
-    .btn__wrapper {
-        padding-left: 68%;
-    }
-
-    .banner {
-        margin-left: auto;
-        margin-top: auto;
-        max-width: 390px;
-    }
-
-    .banner__content {
-        margin-left: -12%;
-        margin-top: -10%;
-    }
-
-    .banner__text {
-        font-size: 1.5em;
-        width: 200px;
-    }
-
-    .banner__info {
-        font-size: 16px;
-        width: 260px;
-    }
-
-    /* .banner__description {
-
-    } */
-
-    .input__wrapper {
-        width: 320px;
-        /* margin-top: 100px; */
-    }
-
-    .banner__right {
-        display: flex;
-        justify-content: center;
-    }
-
-    .banner__right {
-        height: 100%;
-        max-width: 400px;
-        width: 25%;
-        margin-right: -50%;
-    }
-
-    .banner__img {
-        margin-top: -110%;
-        height: 25%;
-        width: 80%;
-    }
-
-    .mail__btn {
-        left: 53%;
-        margin-bottom: -4px;
-    }
-
-    .form__mail {
-        width: 70%;
-    }
+.form__submit:hover {
+  background-color: #242424;
+  border: 2px solid #242424;
 }
