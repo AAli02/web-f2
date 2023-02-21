@@ -218,9 +218,9 @@ input {
     }
 
     .banner__img {
-        height: 230px;
-        width: 130px;
-        padding-top: 180px;
+        height: 250px;
+        width: 140px;
+        padding-top: 120px;
         padding-right: 45px;
         rotate: -15deg;
     }
