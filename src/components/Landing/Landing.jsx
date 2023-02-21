@@ -42,10 +42,10 @@ function Landing() {
 
         </div>
 
-        <a href="#projects" class="scroll">
+        <a href="#about" class="scroll">
           <div class="scroll__icon"></div>
         </a>
-        
+
     </section>
   )
 }
