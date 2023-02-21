@@ -1,14 +1,21 @@
 #section1 {
-    height: 100vh;
+  height: 100vh;
+}
+
+div {
+    display: block;
 }
 
 .section__title {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .title__us {
-    font-size: 28px;
-    font-weight: 700;
-    color: #ffff;
+  font-weight: 700;
+  color: #242424;
+  font-size: 60px;
+  background: -webkit-linear-gradient(#242424, #0091ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

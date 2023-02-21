@@ -12,9 +12,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
   height: 100px;
 }
 
@@ -83,6 +81,11 @@ nav {
 
 /* ------------------ MEDIA ---------------- */
 @media screen and (max-width: 700px) {
+
+  .nav {
+    width: 20%;
+  }
+
   .nav__link:first-child {
     display: none;
   }
@@ -109,5 +112,6 @@ nav {
 
   .nav__link--list {
     margin-right: 0;
+    display: none;
   }
 }
