@@ -126,6 +126,40 @@ input {
     margin-bottom: 1px;
 }
 
+.scroll__icon {
+    width: 20px;
+    height: 30px;
+    border: 2px solid #242424;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .scroll {
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .scroll__icon:after {
+    content: "";
+    width: 4px;
+    height: 6px;
+    background-color: #242424;
+    border-radius: 2px;
+    animation: scroll 1000ms infinite alternate-reverse;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateY(3px);
+    }  
+    100% {
+      transform: translateY(-3px);
+    }  
+  }
 
 @media screen and (max-width: 1000px) {
     .banner {
@@ -174,7 +208,7 @@ input {
     }
 
     .btn__wrapper {
-        padding-left: 72%;
+        padding-left: 75%;
     }
 
     .input__wrapper {
@@ -230,18 +264,18 @@ input {
     }
 
     .btn__wrapper {
-        padding-left: 78%;
+        padding-left: 75%;
     }
 
     .mail__btn {
-        /* margin-top: 2px; */
+        margin-bottom: -5px;
     }
 
 }
 
 @media screen and (max-width: 660px) {
     .btn__wrapper {
-        padding-left: 70%;
+        padding-left: 75%;
     }
 
     .banner__content {
@@ -258,7 +292,7 @@ input {
     }
 
     .banner__img {
-        margin-top: -15%;
+        margin-top: -40%;
         margin-left: 12%;
     }
 
