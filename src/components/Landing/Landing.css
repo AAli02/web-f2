@@ -313,6 +313,10 @@ input {
         overflow-x: hidden;
     }
 
+    .scroll {
+        bottom: 50px;
+    }
+
     .btn__wrapper {
         padding-left: 68%;
     }
