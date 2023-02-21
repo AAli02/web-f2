@@ -234,11 +234,6 @@ input {
     }
 
     .mail__btn {
-        position: absolute;
-        height: 50%;
-        width: 80px;
-        bottom: 3px;
-        left: 75%;
         /* margin-top: 2px; */
     }
 
@@ -323,6 +318,11 @@ input {
     }
 
     .mail__btn {
-        left: 72%;
+        left: 53%;
+        margin-bottom: -4px;
+    }
+
+    .form__mail {
+        width: 70%;
     }
 }
