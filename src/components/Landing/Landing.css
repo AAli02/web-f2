@@ -32,6 +32,10 @@
   color: white;
 }
 
+.banner__img {
+    padding: 20px 42px;
+}
+
 .banner__about {
   filter: brightness(90%);
 }
@@ -44,6 +48,7 @@
   margin: 12px 0 24px 0;
   font-size: 18px;
 }
+
 
 h2 {
   display: block;

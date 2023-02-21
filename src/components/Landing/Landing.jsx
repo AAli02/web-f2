@@ -22,7 +22,7 @@ function Landing() {
         </div>
 
         <div className="banner__contact banner__half">
-          <img src={rocky} alt="" />
+          <img className="banner__img" src={rocky} alt="" />
         </div>
       </div>
 
