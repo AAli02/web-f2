@@ -1,5 +1,5 @@
 #personal_logo {
-  width: 120px;
+  max-width: 130px;
   height: 70px;
   /* -webkit-filter: grayscale(1) invert(1);
   filter: grayscale(1) invert(1); */
@@ -92,12 +92,9 @@ nav {
   .nav__link:nth-child(2) {
     display: none;
   }
-  .nav__link:nth-child(3) {
-    display: none;
-  }
 
   #personal_logo {
-    margin-left: -20px;
+    margin-left: -1px;
   }
 }
 
@@ -107,10 +104,26 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 0.875rem 1.875rem;
-    /* padding-left: 30%; */
+    padding-left: 30%;
   }
 
   .nav__link--list {
     margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 430px) {
+
+  #personal_logo {
+    width: 300px;
+    font-size: 20px;
+    margin-top: 20%;
+  }
+
+  .contact__me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.875rem 2.875rem;
   }
 }

@@ -17,13 +17,13 @@ function Nav() {
         About
         </a>
       </li>
-      <li className="nav__link">
+      {/* <li className="nav__link">
         <a 
           href="#services"
           className="nav__link--anchor link__hover-effect">
         Services
         </a>
-      </li>
+      </li> */}
       <li className="nav__link">
         <a 
           href="#work"
