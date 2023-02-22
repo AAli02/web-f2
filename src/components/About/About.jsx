@@ -25,7 +25,7 @@ function About() {
             <br />
             <strong>We create for you:</strong>
           </div>
-          <ul role="list" className="list w__list-unstyled">
+          <ul role="list" className="list w__list-unstyled u__list">
             <li className="list__item">Outshine the competition</li>
             <li className="list__item">Accelerate your revenue</li>
             <li className="list__item">Increase conversions</li>

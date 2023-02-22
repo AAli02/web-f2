@@ -93,7 +93,7 @@ strong {
   list-style: none;
 }
 
-ul {
+/* ul {
   display: flex;
   flex-direction: column;
   list-style-type: disc;
@@ -102,14 +102,14 @@ ul {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
-}
+} */
 
-ul,
+/* ul,
 ol {
   margin-top: 0px;
   margin-bottom: 10px;
   padding-left: 40px;
-}
+} */
 
 .list__item {
   margin-bottom: 0.625rem;
