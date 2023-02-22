@@ -20,6 +20,157 @@ div {
   -webkit-text-fill-color: transparent;
 }
 
+.about__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: -1.25rem;
+  margin-left: -1.25rem;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.about__img {
+  width: 50%;
+  padding-right: 0rem;
+  padding-left: 0rem;
+}
+
+.team___img {
+  display: block;
+  width: auto;
+  max-height: none;
+  max-width: 100%;
+  margin-left: auto;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.about__desc {
+  width: 50%;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+}
+
+.heading__3 {
+  max-width: 33.75rem;
+  margin-top: 0rem;
+}
+
+.p.r__space {
+  padding-right: 3.75rem;
+}
+
+.bold__text {
+  font-weight: 700;
+}
+
+.list {
+  color: #0a0e09;
+  font-size: 1.125rem;
+  line-height: 1.6875rem;
+  font-weight: 600;
+}
+
+.w__list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+ul, ol {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-left: 40px;
+}
+
+.list-item {
+  margin-bottom: 0.625rem;
+  padding-left: 2.3125rem;
+  background-image: url(https://uploads-ssl.webflow.com/63b46f6…/63b56ea…_Frame%207.svg);
+  background-position: 0% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+@media screen and (max-width: 1000px) {
+  .about__content {
+    margin-right: 0rem;
+    margin-left: 0rem;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.about__image {
+  width: 100%;
+  padding-right: 0rem;
+  padding-left: 0rem;
+}
+
+.team__img {
+    display: block;
+    width: 110%;
+    margin-right: 0px;
+    margin-left: -35px;
+}
+
+.about__desc {
+  width: 100%;
+  padding-right: 0rem;
+  padding-left: 0rem;
+}
+
+.p.r-space {
+  padding-right: 0rem;
+}
+
+}
+
+@media screen and (max-width: 760) {
+  team-img {
+    margin-left: 0px;
+}
+
+.heading-3 {
+  font-size: 1.375rem;
+  line-height: 2.063rem;
+}
+
+.list {
+  font-size: 1rem;
+  line-height: 1.688rem;
+}
+
+.list-item {
+  background-size: 24px 24px;
+}
+
+}
+
 
 @media screen and (max-width: 430px) {
   .title__us {
