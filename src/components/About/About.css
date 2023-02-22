@@ -16,7 +16,7 @@ div {
   color: #242424;
   font-size: 60px;
   background: -webkit-linear-gradient(#242424, #0091ff);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text;`g */
   -webkit-text-fill-color: transparent;
 }
 
