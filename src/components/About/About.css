@@ -39,11 +39,11 @@ div {
   padding-left: 0rem;
 }
 
-.team___img {
+.team__img {
   display: block;
   width: auto;
   max-height: none;
-  max-width: 100%;
+  max-width: 90%;
   margin-left: auto;
   border-radius: 0px;
   background-color: transparent;
@@ -64,14 +64,20 @@ img {
 .heading__3 {
   max-width: 33.75rem;
   margin-top: 0rem;
+  font-size: 32px;
 }
 
 .p.r__space {
   padding-right: 3.75rem;
+  margin-top: 20px;
 }
 
 .bold__text {
   font-weight: 700;
+}
+
+strong {
+  font-size: 20px;
 }
 
 .list {
@@ -79,6 +85,7 @@ img {
   font-size: 1.125rem;
   line-height: 1.6875rem;
   font-weight: 600;
+  margin: 20px;
 }
 
 .w__list-unstyled {
@@ -87,7 +94,8 @@ img {
 }
 
 ul {
-  display: block;
+  display: flex;
+  flex-direction: column;
   list-style-type: disc;
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -106,7 +114,8 @@ ol {
 .list__item {
   margin-bottom: 0.625rem;
   padding-left: 2.3125rem;
-  background-image: url(https://uploads-ssl.webflow.com/63b46f6…/63b56ea…_Frame%207.svg);
+  /* background-image: url(https://uploads-ssl.webflow.com/63b46f6309528e69d8404ae1/63b56eaaf6d39022f4333aac_Frame%207.svg); */
+  background-image: url(file:///Users/aali/Downloads/circle-check-solid.svg);
   background-position: 0% 50%;
   background-size: auto;
   background-repeat: no-repeat;

@@ -17,7 +17,7 @@ function Landing() {
           </h3>
           <div className="form__item">
             <input className="input" placeholder="Email" type="email" required></input>
-            <button id="contact__submit" class="form__submit">Join</button>
+            <button id="contact__submit" className="form__submit">Join</button>
           </div>
         </div>
 
@@ -26,7 +26,7 @@ function Landing() {
         </div>
       </div>
 
-      <a href="#about" class="scroll">
+      <a href="#about" className="scroll">
         <div className="scroll__icon"></div>
       </a>
     </section>
