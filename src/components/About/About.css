@@ -15,8 +15,8 @@ div {
   font-weight: 700;
   color: #242424;
   font-size: 60px;
-  background: -webkit-linear-gradient(#242424, #0091ff);
-  /* -webkit-background-clip: text;`g */
+  /* background: -webkit-linear-gradient(#242424, #0091ff);
+  -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
 }
 
