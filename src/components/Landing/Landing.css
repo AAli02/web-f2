@@ -144,12 +144,14 @@ textarea {
 /* MEDIA SIZING */
 
 @media screen and (max-width: 460px) {
-  .banner__contact {
-    display: none;
+
+  .banner {
+    top: 50%;
+    left: 50%
   }
 
-  .banner__half {
-    padding: 40px;
+  .banner__contact {
+    display: none;
   }
 
   .banner__about {
