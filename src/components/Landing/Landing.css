@@ -148,6 +148,10 @@ textarea {
     display: none;
   }
 
+  .banner__half {
+    padding: 40px;
+  }
+
   .banner__about {
     display: flex;
     justify-content: center;
