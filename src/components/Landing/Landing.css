@@ -146,9 +146,9 @@ textarea {
 @media screen and (max-width: 460px) {
 
   .banner {
-    top: 60%;
+    top: 62%;
     left: 50%;
-    max-height: 200px;
+    height: 200px;
   }
 
   .banner__contact {
