@@ -175,6 +175,18 @@ textarea {
     font-size: 18px;
   }
 
+  .scroll__icon {
+    border: 2px solid #fff;
+  }
+  
+  .scroll {
+    bottom: 40px;
+  }
+  
+  .scroll__icon:after {
+    background-color: #fff;
+  }
+
   input,
   textarea {
     position: absolute;
