@@ -1,5 +1,5 @@
 import React from "react";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import team from "../../assets/team.png";
 
 import "./About.css";
@@ -26,6 +26,7 @@ function About() {
             <strong>We create for you:</strong>
           </div>
           <ul role="list" className="list w__list-unstyled u__list">
+            <i class="fa-solid fa-circle-check"></i>
             <li className="list__item">Outshine the competition</li>
             <li className="list__item">Accelerate your revenue</li>
             <li className="list__item">Increase conversions</li>
