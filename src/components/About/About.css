@@ -78,6 +78,7 @@ img {
 
 strong {
   font-size: 20px;
+  font-weight: 700;
 }
 
 .list {
@@ -115,7 +116,7 @@ ol {
   margin-bottom: 0.625rem;
   padding-left: 2.3125rem;
   /* background-image: url(https://uploads-ssl.webflow.com/63b46f6309528e69d8404ae1/63b56eaaf6d39022f4333aac_Frame%207.svg); */
-  /* background-image: url(file:///Users/aali/Downloads/circle-check-solid.svg); */
+  background-image: url(file:///Users/aali/Downloads/circle-check-solid.svg);
   background-position: 0% 50%;
   background-size: auto;
   background-repeat: no-repeat;
@@ -128,6 +129,8 @@ li {
 
 @media screen and (max-width: 1000px) {
   .about__content {
+    display: flex;
+    justify-content: center;
     margin-right: 0rem;
     margin-left: 0rem;
     -webkit-flex-wrap: wrap;
@@ -149,14 +152,29 @@ li {
   }
 
   .about__desc {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
     width: 100%;
     padding-right: 0rem;
-    padding-left: 0rem;
+    margin-left: 10%;
   }
+
+/* .heading__3 {
+  display: flex;
+  place-content: center;
+  justify-content: center;
+} */
 
   .p.r__space {
     padding-right: 0rem;
   }
+
+  .u__list {
+    margin-top: 5%;
+    margin-left: -20%;
+  }
+
 }
 
 @media screen and (max-width: 760) {

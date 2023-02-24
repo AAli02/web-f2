@@ -152,6 +152,32 @@ textarea {
 
 /* MEDIA SIZING */
 
+@media screen and (max-width: 1000px) {
+  .banner__img {
+    padding: 0px 0px;
+  }
+
+}
+
+@media screen and (max-width: 730px) {
+  .banner__contact {
+    display: none;
+  }
+
+  .banner__img {
+    display: none;
+  }
+
+  .banner__about {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding: 10px 60px;
+    margin-top: 10%;
+  }
+
+}
+
 @media screen and (max-width: 460px) {
 
   .banner {
