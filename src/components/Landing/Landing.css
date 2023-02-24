@@ -85,6 +85,15 @@ h2 {
   animation: scroll 1000ms infinite alternate-reverse;
 }
 
+@keyframes scroll {
+  0% {
+    transform: translateY(3px);
+  }  
+  100% {
+    transform: translateY(-3px);
+  }  
+}
+
 /* FORM */
 /* FORM */
 /* FORM */
