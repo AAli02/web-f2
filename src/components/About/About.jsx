@@ -1,6 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import team from "../../assets/team.png";
+import pic1 from "../../assets/pic1.png";
+import pic2 from "../../assets/pic2.png";
+import planet from "../../assets/planet.png";
 
 import "./About.css";
 
@@ -15,7 +18,7 @@ function About() {
 
       <div className="about__content">
         <div className="about__img">
-          <img className="team__img" src={team} alt="" />
+          <img className="team__img" src={pic1} alt="" />
         </div>
         <div className="about__desc">
           <h3 className="heading__3">A team of passionate designers and developers</h3>
