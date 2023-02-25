@@ -115,12 +115,17 @@ ol {
 } */
 
 .list__item {
-  margin-bottom: 0.625rem;
-  padding-left: 2.3125rem;
+  margin-bottom: .625rem;
+  padding-left: .3125rem;
+  /* margin-top: 10px; */
   /* background-image: url(https://uploads-ssl.webflow.com/63b46f6309528e69d8404ae1/63b56eaaf6d39022f4333aac_Frame%207.svg); */
   background-position: 0% 50%;
   background-size: auto;
   background-repeat: no-repeat;
+}
+
+.check__img {
+  padding-right: 10px;
 }
 
 .fa-solid {

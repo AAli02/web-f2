@@ -4,6 +4,7 @@ import team from "../../assets/team.png";
 import pic1 from "../../assets/pic1.png";
 import pic2 from "../../assets/pic2.png";
 import planet from "../../assets/planet.png";
+import check from "../../assets/check.png";
 
 import "./About.css";
 
@@ -30,10 +31,10 @@ function About() {
           </div>
           <ul role="list" className="list w__list-unstyled u__list">
             <i class="fa-solid fa-circle-check"></i>
-            <li className="list__item">Outshine the competition</li>
-            <li className="list__item">Accelerate your revenue</li>
-            <li className="list__item">Increase conversions</li>
-            <li className="list__item">Improve your brand image</li>
+            <li className="list__item"><img className="check__img" src={check}/> Outshine the competition</li>
+            <li className="list__item"><img className="check__img" src={check}/> Accelerate your revenue</li>
+            <li className="list__item"><img className="check__img" src={check}/> Increase conversions</li>
+            <li className="list__item"><img className="check__img" src={check}/> Improve your brand image</li>
           </ul>
         </div>
       </div>
