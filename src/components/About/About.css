@@ -237,7 +237,6 @@ li {
   }
 
   .p.r__space {
-    margin: 20px;
   }
 
 
@@ -245,7 +244,6 @@ li {
     display: flex;
     font-size: 1.375rem;
     line-height: 2.063rem;
-    margin: 20px;
   }
 
   .list {
@@ -253,7 +251,6 @@ li {
     flex-direction: column;
     font-size: 1rem;
     line-height: 1.688rem;
-    margin: 20px;
   }
 
   .list__item {
