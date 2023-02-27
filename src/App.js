@@ -12,6 +12,7 @@ const App = () => (
   <div>
     <Router>
       <Routes>
+      <Route path="/Aboutnpm " element={<About About={About} />} />
       </Routes>
     </Router>
     <Nav />
