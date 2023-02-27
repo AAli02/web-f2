@@ -27,7 +27,7 @@ div {
   display: -ms-flexbox;
   display: flex;
   margin-right: -1.25rem;
-  margin-left: -10%;
+  /* margin-left: -10%; */
   margin-top: 5%;
   -webkit-box-align: center;
   -webkit-align-items: center;
