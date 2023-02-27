@@ -127,6 +127,7 @@ ol {
 
 .check__img {
   padding-right: 10px;
+  width: 27px;
 }
 
 .fa-solid {
@@ -232,6 +233,7 @@ li {
   .about__content {
     display: flex;
     justify-content: center;
+    place-items: center;
   }
 
   .about__img {
