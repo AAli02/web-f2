@@ -40,7 +40,7 @@ export const About = () => {
       <div className="about__wrapper">
 
       <div className="section__title">
-        <h1 className="title__us">About Us</h1>
+        <h1 data-aos="fade-in" className="title__us">About Us</h1>
       </div>
 
       <div className="about__content">
