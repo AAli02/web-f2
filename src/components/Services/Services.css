@@ -1,0 +1,35 @@
+#service {
+    height: 100vh;
+}
+
+.service__content {
+    position: static;
+    display: flex;
+    margin-right: -1.25rem;
+    margin-bottom: 3.125rem;
+    margin-left: -1.25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.service__card {
+    width: 33.333%;
+    padding-right: 1.5625rem;
+    padding-left: 1.5625rem;
+}
+
+@media screen and (max-width: 1000px) {
+
+}
+
+@media screen and (max-width: 760px) {
+    .title__us {
+        font-size: 45px;
+      }
+}
+
+@media screen and (max-width: 430px) {
+    .title__us {
+        font-size: 30px;
+      }
+}
