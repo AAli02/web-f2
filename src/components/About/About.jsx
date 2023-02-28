@@ -56,10 +56,10 @@ export const About = () => {
             <strong>We create for you:</strong>
           </div>
           <ul role="list" className="list w__list-unstyled u__list">
-            <li className="list__item"><img className="check__img" src={check}/> Outshine the competition</li>
-            <li className="list__item"><img className="check__img" src={check}/> Accelerate your revenue</li>
-            <li className="list__item"><img className="check__img" src={check}/> Increase conversions</li>
-            <li className="list__item"><img className="check__img" src={check}/> Improve your brand image</li>
+            <li data-aos="fade-left" data-aos-easing="ease-in" data-aos-durration="700ms" className="list__item"><img className="check__img" src={check}/> Outshine the competition</li>
+            <li data-aos="fade-left" data-aos-easing="ease-in" data-aos-durration="800ms" className="list__item"><img className="check__img" src={check}/> Accelerate your revenue</li>
+            <li data-aos="fade-left" data-aos-easing="ease-in" data-aos-durration="900ms"className="list__item"><img className="check__img" src={check}/> Increase conversions</li>
+            <li data-aos="fade-left" data-aos-easing="ease-in" data-aos-durration="1000ms" className="list__item"><img className="check__img" src={check}/> Improve your brand image</li>
           </ul>
         </div>
       </div>
