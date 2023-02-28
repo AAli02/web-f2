@@ -26,7 +26,7 @@
   position: relative;
   transition: all 300ms ease-in;
   color: #fff;
-  animation: banner__load2 500ms ease-out;
+  animation: banner__load2 500ms ease-in;
 }
 
 .banner__about {

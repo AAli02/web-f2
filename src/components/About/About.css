@@ -14,11 +14,8 @@ div {
 
 .title__us {
   font-weight: 700;
-  color: #242424;
-  font-size: 60px;
-  background: -webkit-linear-gradient(#0091ff, #0091ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #0091ff;
+  font-size: 50px;
 }
 
 .about__content {
