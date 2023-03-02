@@ -18,7 +18,7 @@ function Slider() {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3
+      items: 1
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -36,20 +36,20 @@ function Slider() {
         <Row>
           <Col>
           <div className='service__box'>
-            <h2>Services</h2>
-            <p>Lorem, ipsum.</p>
+            <h2>What We Do</h2>
+            <p>Services</p>
               <Carousel responsive={responsive} infinite={true} className='service__slider'>
                 <div className='item'>
                   <img src={design} alt="Image" />
-                  <h5>Ui/UX Design</h5>
+                  <h5 className='slider__desc'>Ui/UX Design</h5>
                 </div>
                 <div className='item'>
                   <img src={dev} alt="Image" />
-                  <h5>Development</h5>
+                  <h5 className='slider__desc'>Development</h5>
                 </div>
                 <div className='item'>
                   <img src={brand} alt="Image" />
-                  <h5>Branding</h5>
+                  <h5 className='slider__desc'>Branding</h5>
                 </div>
               </Carousel>
           </div>
