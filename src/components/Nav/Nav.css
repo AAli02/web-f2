@@ -7,6 +7,10 @@
   padding-top: 20px;
 }
 
+#nav__bar {
+  overflow:hidden
+}
+
 nav {
   display: flex;
   justify-content: space-between;

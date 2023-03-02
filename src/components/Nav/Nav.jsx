@@ -4,7 +4,7 @@ import "./Nav.css"
 
 function Nav() {
   return (
-    <nav>
+    <nav id='nav__bar'>
     <figure>
       {/* <img id="personal_logo"  alt="" /> */}
       <h1 id='personal_logo'>Web Forte</h1>
