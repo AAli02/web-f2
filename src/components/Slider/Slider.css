@@ -1,0 +1,56 @@
+.carousel {
+    padding: 0 0 50px 0;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.service__box {
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: -60px;
+}
+
+.carousel h5 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.carousel p {
+    color: #242424;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 75px 0;
+}
+
+.service__slider {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.service__slider .item img{
+    width: 50%;
+    margin: 0 auto 15px auto;
+}
+
+.slider__desc {
+    color: #242424;
+}
+
+
+
+@media screen and (max-width: 430px) {
+
+    .service__slider .item img{
+        width: 100%;
+        margin: 0 auto 15px auto;
+    }
+
+    .carousel h5 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+  }
