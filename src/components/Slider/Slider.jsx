@@ -49,7 +49,7 @@ function Slider() {
               <Carousel
                 responsive={responsive}
                 infinite={true}
-                showDots={false}
+                showDots={true}
                 keyBoardControl={true}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
                 className="service__slider"

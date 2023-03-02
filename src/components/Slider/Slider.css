@@ -1,11 +1,10 @@
-.carousel {
+/* .carousel {
     padding: 0 0 50px 0;
     position: relative;
     height: 100vh;
 }
 
 .service__box {
-    /* background-color: #242424; */
     border-radius: 64px;
     text-align: center;
     padding: 60px 50px;
@@ -42,7 +41,7 @@
 
 
 
-/* @media screen and (max-width: 430px) {
+@media screen and (max-width: 430px) {
 
     .service__slider .item img{
         width: 100%;
