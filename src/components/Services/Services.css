@@ -1,5 +1,4 @@
 #service {
-  height: 100vh;
   display: grid;
   margin: 0px;
   padding: 0px;  
@@ -105,9 +104,6 @@
 }
 
 @media screen and (max-width: 430px) {
-  #service {
-    height: 200vh;
-  }
 
   .title__us {
     font-size: 30px;
