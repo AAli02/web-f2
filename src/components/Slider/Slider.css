@@ -1,7 +1,8 @@
-/* .carousel {
+.carousel {
     padding: 0 0 50px 0;
     position: relative;
     height: 100vh;
+    overflow: hidden;
 }
 
 .service__box {
@@ -52,4 +53,4 @@
         font-size: 25px;
         font-weight: 700;
     }
-  } */
+  }

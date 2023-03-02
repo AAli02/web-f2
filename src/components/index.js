@@ -3,7 +3,7 @@ import Landing from './Landing/Landing';
 import About from './About/About';
 import Services from './Services/Services';
 import Footer from './Footer/Footer';
-import Slider from './Slider/Slider';
+// import Slider from './Slider/Slider';
 
 
 export {
@@ -11,6 +11,6 @@ export {
   Landing,
   About,
   Services,
-  Slider,
+  // Slider,
   Footer,
 };
