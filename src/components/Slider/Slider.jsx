@@ -29,6 +29,14 @@ function Slider() {
       items: 1,
     },
   };
+  
+  // const CustomRightArrow = ({ onClick, ...rest }) => {
+  //   const {
+  //     onMove,
+  //     carouselState: { currentSlide, deviceType }
+  //   } = rest;
+  //   // onMove means if dragging or swiping in progress.
+  //   return <button onClick={() => onClick()} />;
 
   return (
     <section className="carousel" id="service">
@@ -41,6 +49,9 @@ function Slider() {
               <Carousel
                 responsive={responsive}
                 infinite={true}
+                showDots={true}
+                keyBoardControl={true}
+                removeArrowOnDeviceType={["tablet", "mobile"]}
                 className="service__slider"
               >
                 <div className="item">
