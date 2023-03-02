@@ -20,19 +20,19 @@ function Services() {
             <div data-aos="fade-right" data-aos-easing="ease-in" data-aos-durration="300ms" className="card">
               <div className="card__content">
                 <h1 className="card__text">Design</h1>
-                <img src={brush} className="card__icon" />
+                <img src={brush} alt="" className="card__icon" />
               </div>
             </div>
             <div data-aos="fade-right" data-aos-easing="ease-in" data-aos-durration="350ms" className="card">
               <div className="card__content">
                 <h1 className="card__text">Development</h1>
-                <img src={file} className="card__icon" />
+                <img src={file} alt="" className="card__icon" />
               </div>
             </div>
             <div data-aos="fade-right" data-aos-easing="ease-in" data-aos-durration="400ms" className="card">
               <div className="card__content">
                 <h1 className="card__text">Branding</h1>
-                <img src={brand} className="card__icon" />
+                <img src={brand} alt="" className="card__icon" />
               </div>
             </div>
           </div>

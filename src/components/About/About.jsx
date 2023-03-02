@@ -1,11 +1,8 @@
 import React, { useEffect } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Aos from "aos";
 
-import team from "../../assets/team.png";
 import pic1 from "../../assets/pic1.png";
-import pic2 from "../../assets/pic2.png";
-import planet from "../../assets/planet.png";
 import check from "../../assets/check.png";
 
 import 'aos/dist/aos.css';

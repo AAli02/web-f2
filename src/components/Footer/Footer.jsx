@@ -1,4 +1,5 @@
 import React from 'react'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Footer.css";
 
 import logo from "../../assets/Wf2.jpg";
@@ -8,12 +9,12 @@ function Footer() {
   return (
     <footer>
   <div className="row footer__row">
-  <a href="#" className="footer__anchor">
+  <a href="" className="footer__anchor">
     <figure className="footer__logo">
       <img src={logo} className="footer__logo--img" alt=""></img>
     </figure>
     <span className="footer__logo--popper">
-      Top <i className="fas fa-arrow-up"></i>
+      Top <FontAwesomeIcon icon="fa-solid fa-arrow-up" />
     </span>
   </a>
   {/* <div className="footer__social--list">

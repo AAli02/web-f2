@@ -1,6 +1,4 @@
 import React from "react";
-import rocket from "../../assets/rocket.png";
-import rocket2 from "../../assets/rocket.webp";
 import rocky from "../../assets/rocky.png";
 
 import "./Landing.css";
